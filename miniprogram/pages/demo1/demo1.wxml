@@ -1,2 +1,15 @@
 <!--pages/demo1/demo1.wxml-->
-<text>首页</text>
+<!-- <text>首页</text>
+<view>{{openid}}</view> -->
+
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="2000" duration="1000" circular="{{true}}">
+  <block>
+    <swiper-item wx:for='{{swiperImgList}}' wx:key="url">
+      <image src="{{item.url}}" mode="widthFix" class="img" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<block wx:for="{{list}}" wx:key="id">
+  <show-msg itemData="{{item}}"></show-msg>
+</block>

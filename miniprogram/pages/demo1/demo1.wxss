@@ -1,1 +1,5 @@
 /* pages/demo1/demo1.wxss */
+.img{
+  width: 100%;
+  height: 100%;
+}

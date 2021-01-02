@@ -1,0 +1,4 @@
+<!--components/showMsg/showMsg.wxml-->
+<text bindtap="showInfo">
+  {{itemData.id + '-' + itemData.title}}
+</text>

@@ -40,6 +40,7 @@
   "appid": "wxa8f600d5fc6f11e7",
   "projectname": "miniprogram-2",
   "libVersion": "2.8.1",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []
