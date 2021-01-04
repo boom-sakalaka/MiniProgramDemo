@@ -19,8 +19,11 @@ Component({
    */
   methods: {
     showInfo() {
-      console.log(this.data.name) // 调用的组件自己的data
-      console.log(this.properties.itemData) // 调用传递给组件的数据
+      // console.log(this.data.name) // 调用的组件自己的data
+      // console.log(this.properties.itemData) // 调用传递给组件的数据
+      wx.navigateTo({
+        url: `../../pages/demo4/demo4?myName=${this.data.name}`,
+      })
     }
   }
 })
